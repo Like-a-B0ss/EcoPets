@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EcoPets</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="16x16"  href="assets/img/favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32"  href="assets/img/favicons/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-touch-icon-76x76.png">
+<link rel="icon" type="image/png" sizes="96x96"  href="assets/img/favicons/apple-touch-icon-96x96.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicons/android-icon-192x192.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Transicao API -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+  
+</head>
+
+<body>
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class=" fixed-top">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
+          <h1 class="logo me-auto me-lg-0"><a href="index.html">EcoPets</a></h1>
+
+
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto" href="index.html">Início</a></li>
+              <li><a class="nav-link scrollto" href="banho-e-tosa.html">Banho e Tosa</a></li>
+              <li><a class="nav-link scrollto active" href="produtos.html">Produtos</a></li>
+              <li><a class="nav-link scrollto" href="hotel-pet.html">Hotel Pet</a></li>
+              <li><a class="nav-link scrollto" href="veterinario.html">Veterinário</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+
+          <a href="login.html" class="get-started-btn scrollto"><i class="bi bi-person-fill"></i> login</a>
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero-produtos" class=" d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8 T">
+          <h1>Produtos</h1>
+          <h2>Descubra a nossa coleção de produtos na EcoPets, selecionados com cuidado para atender às necessidades do seu pet e ao nosso compromisso com a natureza.</h2>
+          <a href="#produtos" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
+          <script>
+            let hasScrolled = false;
+    
+            function scrollOnce() {
+                if (!hasScrolled) {
+                    // Verifique se a página já rolou ou se já passaram 8 segundos
+                    if (window.pageYOffset === 0 || window.location.hash === "#hero-produtos") {
+                        setTimeout(function () {
+                            window.scrollBy(0, document.querySelector(".produtos").getBoundingClientRect().top);
+                            hasScrolled = true;
+                        }, 8000); // Espera 8 segundos antes de rolar
+                    }
+                }
+            }
+    
+            // Execute a função scrollOnce quando a página é carregada
+            window.onload = scrollOnce;
+        </script>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <!-- ======= Produtos Section ======= -->
+  <section id="produtos" class="produtos">
+    <div class="container">
+      <div class="section-title">
+        <h6>Produtos Destaques da Semana</h6>
+      </div>
+  
+      <div class="container">
+        <div class="row align-items-start">
+      
+          <div class="produto col-xl-3 col-sm-4 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-1.png" class="produto-img " alt="">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </span>
+              <h5 class="produto-title">Bebedouro Automático</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+          <div class="produto col-xl-3 col-sm-4 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-2.png" class="produto-img" alt="">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </span>
+              <h5 class="produto-title">Toca Cama Para Gatos</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+          <div class="produto col-xl-3 col-sm-4 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-3.png" class="produto-img" alt="">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </span>
+              <h5 class="produto-title">Comedouro Duplo</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+          <div class="produto col-xl-3 col-sm-4 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-4.png" class="produto-img" alt="">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </span>
+              <h5 class="produto-title">Dispenser de Ração</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+      <div class="section-title">
+        <h6>Premium Cachorros</h6>
+      </div>
+  
+      <div class="container">
+        <div class="row align-items-start">
+      
+          <div class="produto col-xl-3 col-sm-6 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-5.png" class="produto-img" alt="">
+              <h5 class="produto-title">Caminha Nuvem</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+          <div class="produto col-xl-3 col-sm-6 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-6.png" class="produto-img" alt="">
+              <h5 class="produto-title">Colete Para Cachorros</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+          <div class="produto col-xl-3 col-sm-6 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-7.png" class="produto-img" alt="">
+              <h5 class="produto-title">Coleira Anti-Latido</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+          <div class="produto col-xl-3 col-sm-6 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-8.png" class="produto-img" alt="">
+              <h5 class="produto-title">Protetor e Hidratante</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+
+      <div class="section-title">
+        <h6>Premium Gatos</h6>
+      </div>
+  
+      <div class="container">
+        <div class="row align-items-start">
+      
+          <div class="produto col-xl-3 col-sm-6 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-9.png" class="produto-img" alt="">
+              <h5 class="produto-title">Cobra inteligente usb</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+          <div class="produto col-xl-3 col-sm-6 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-10.png" class="produto-img" alt="">
+              <h5 class="produto-title">Cama Tunel</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+          <div class="produto col-xl-3 col-sm-6 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-11.png" class="produto-img" alt="">
+              <h5 class="produto-title">Escova de Parede</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+          <div class="produto col-xl-3 col-sm-6 T">
+            <div class="produto-content">
+              <img src="assets/img/produtos/produto-12.png" class="produto-img" alt="">
+              <h5 class="produto-title">Tapete Higiênico</h5>
+              <a href="comprar-1.html" class="produto-btn"></i> Comprar Agora</a>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Ecopets</h3>
+      <p>Unindo Corações Peludos e uma Terra mais Verde.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>EcoPets</span></strong> Todos os Direitos Reservados.
+      </div>
+      <div class="credits">
+        
+        Designed by <a href="">Leonardo Paes</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/localstorage.js"></script>
+  <script src="assets/js/scrollreveal.js"></script>
+
+
+
+
+</body>
+
+</html>
+    
