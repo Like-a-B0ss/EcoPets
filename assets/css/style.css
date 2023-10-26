@@ -1711,6 +1711,7 @@ font-size: 33px;
   background: url("../img/veterinario-bg.png") top center;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
 
 #hero-vet:before {
